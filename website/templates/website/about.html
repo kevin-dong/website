@@ -1,0 +1,65 @@
+{% extends "website/header_footer.html" %}
+{% load filters %}
+{% load staticfiles %}
+
+
+{% block content %}
+<link rel="stylesheet" href="{% static "website/css/about_page.css" %}" type="text/css" media="screen" />
+<div class="container">
+  		<div class="row">
+    		<div class="col-md-12">
+      			<div class="page-header">
+  					<h1 class =  "title">Organization</h1>
+				</div>
+    		</div>
+    	</div>
+    	<div class="row row-m">
+    		<div class="col-md-12">
+    			<img src="http://dorsetconnects.com/wp-content/uploads/2016/04/humss-tech-support-banner.jpg" class="img-responsive center-block">
+    		</div>
+    	</div>
+    	<div class="row row-m">
+    		<div class="col-md-12 about">
+      			Upsilon Pi Epsilon is the first and only international honor society for the Computing Sciences (CS).
+      			The UC Berkeley chapter launched in 1995 and upholds the tradition of academic excellence
+      			by honoring the top tier of CS students. We are a student group acting independently of
+      			the University of California. We take full responsibility for our organization and this web site.
+    		</div>
+    	</div>
+
+    <div class="row">
+	    <div class="col-md-4">
+	      <div class="img-rounded">
+
+	          <img src="https://i.pinimg.com/736x/f2/d2/2b/f2d22bf8a936f2adcdc40fe996e4bec2--superman-hero-superman-stuff.jpg" style="width:100%">
+	          <div class="caption">
+	            <h3>Henry Cavill</h3>
+	          </div>
+	      </div>
+	    </div>
+	    <div class="col-md-4">
+	      <div class="img-rounded">
+
+	          <img src="https://i.pinimg.com/736x/f2/d2/2b/f2d22bf8a936f2adcdc40fe996e4bec2--superman-hero-superman-stuff.jpg" style="width:100%">
+	          <div class="caption">
+	            <h3>Ben Affleck</h3>
+	          </div>
+
+	      </div>
+	    </div>
+	    <div class="col-md-4">
+	      <div class="img-rounded">
+
+	          <img src="https://i.pinimg.com/736x/f2/d2/2b/f2d22bf8a936f2adcdc40fe996e4bec2--superman-hero-superman-stuff.jpg" style="width:100%">
+	          <div class="caption">
+	            <h3>Gal Gadot</h3>
+	          </div>
+
+	      </div>
+	    </div>
+	  </div>
+</div>
+
+
+
+{% endblock %}

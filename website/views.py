@@ -30,6 +30,18 @@ def oh(request):
 
 def ir(request):
     return render(request, 'website/ir.html', {})
+
+def about(request):
+    return render(request, 'website/about.html', {})
+
+def ind_rel(request):
+    return render(request, 'website/ind_rel.html', {})
+
+def prof_dev(request):
+    return render(request, 'website/prof_dev.html', {})
+
+def library(request):
+    return render(request, 'website/library.html', {})
 """
 def interview(request):
     time_dict = {9: "9:00am - 10:00am", 10: "10:00am - 11:00am", 11: "11:00am - 12:00pm", 12: "12:00pm - 1:00pm", 13: "1:00pm - 2:00pm",

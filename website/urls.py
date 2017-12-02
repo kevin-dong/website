@@ -14,4 +14,8 @@ urlpatterns = patterns('',
     url(r'^bookinterview/(?P<slot_id>[a-z]+[0-9]+)/$', 'website.views.book_interview', name='book_interview'),
     url(r'^interview/$', 'website.views.interview', name='interview'),
     url(r'^confirminterview/$', 'website.views.confirm_interview', name='confirm_interview'),
+    url(r'^about/$', 'website.views.about', name='about'),
+    url(r'^ind_rel/$', 'website.views.ind_rel', name='ind_rel'),
+    url(r'^prof_dev/$', 'website.views.prof_dev', name='prof_dev'),
+    url(r'^library/$', 'website.views.library', name='library')
 )
